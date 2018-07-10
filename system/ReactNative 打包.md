@@ -28,7 +28,8 @@
 
 ----
 
-附赠一个打包 jsbundle 和资源 的 shell
+#### 附赠一个打包 js bundle 和 相关资源 的 shell
+
 ```bash
 #!/bin/bash
 
