@@ -93,6 +93,6 @@ $EventEmitter.off(event1)                 // true
 
 $EventEmitter.once(event1, console.log)
 $EventEmitter.emit(event1, 'hello world') // "hello world"
-$EventEmitter.emit(event1, 'hello world') // log warning
+$EventEmitter.emit(event1, 'hello world') // [ warning ]
 
 ```
