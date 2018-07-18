@@ -72,7 +72,7 @@ export default EventEmitter
 import EventEmitter from './event_emitter.js'
 
 export default new EventEmitter({
-  isDev: envConf.env === 'development'
+  isDev: true
 })
 ```
 
