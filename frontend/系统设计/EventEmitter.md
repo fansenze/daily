@@ -91,7 +91,7 @@ $EventEmitter.emit(event1, 'hello world') // "hello world"
 $EventEmitter.emit(event1, 'hello man')   // "hello man"
 $EventEmitter.off(event1)                 // true
 
-$EventEmitter.once(event1, console.log)
-$EventEmitter.emit(event1, 'hello world') // "hello world"
-$EventEmitter.emit(event1, 'hello world') // [ warning ]
+$EventEmitter.once(event2, console.log)
+$EventEmitter.emit(event2, 'hello !!!') // "hello !!!"
+$EventEmitter.emit(event2, 'hello !!!!!') // [ warning ]
 ```
