@@ -87,12 +87,12 @@ const event1 = Symbol('1')
 const event2 = 'event2'
 
 $EventEmitter.on(event1, console.log)
-$EventEmitter.emit(event1, 'hello world') // "hello world"
-$EventEmitter.emit(event1, 'hello man')   // "hello man"
+$EventEmitter.emit(event1, 'hello world') // "hello world"
+$EventEmitter.emit(event1, 'hello man')   // "hello man"
 $EventEmitter.off(event1)                 // true
 
 $EventEmitter.once(event1, console.log)
-$EventEmitter.emit(event1, 'hello world') // "hello world"
+$EventEmitter.emit(event1, 'hello world') // "hello world"
 $EventEmitter.emit(event1, 'hello world') // log warning
 
 ```
